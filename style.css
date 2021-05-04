@@ -1,0 +1,64 @@
+/* IMMAGINE DI SFONDO */
+body{
+  background-image:url(img/background.jpg);
+  background-size: cover;
+}
+
+/* LARGHEZZA CONTENITORE */
+.container{
+  width: 800px;
+  margin:20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding:50px;
+  border-radius:10px;
+}
+
+/* LOGO */
+.logo{
+  width: 150px;
+}
+
+/* COLORE TESTO */
+.color-primary{
+  color: #00dd00;
+}
+
+/* COLORE DI SFONDO */
+.bg-primary{
+  background-color: #00dd00;
+  padding:10px;
+}
+
+/* ALLINEAMENTO TESTO */
+.text-center{
+  text-align:center;
+}
+
+/* ELENCO DISPOSITIVI */
+.row h3,
+.row input{
+  display:inline-block;
+}
+.row h3{
+  margin-bottom:0;
+}
+.row p{
+  margin:5px 0;
+}
+.carica{
+  height: 20px;
+  border-radius: 5px;
+}
+.carica_arancione{
+  background-color: #f5b453;
+  width: 400px;
+}
+.carica_verde{
+  background-color: #1ec31e;
+  width: 600px;
+}
+.carica_rossa{
+  background-color: #be4141;
+  width: 200px;
+}
